@@ -104,7 +104,7 @@ git pull origin main
 
 **Pousser les Changements vers le Repository Distant**
 ```shell
-git push origin nom-branche
+git push -u origin nom-branche
 ```
 - **Exemple** : git push origin feature/ajout-authentification
 - **Description** : Pousse les commits de la branche locale vers le repository distant.
